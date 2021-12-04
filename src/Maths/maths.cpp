@@ -20,6 +20,7 @@ return result;
 
 int Maths::Divide(int firstDivide, int secondDivide)
 {
+if(secondDivide <= 0) {std::cout << "You are fucking idiot!\nCANNOT DIVIDE BY FUCKING ZERO!!!!1!1!1!\n"; exit(0);}
 int result = firstDivide / secondDivide;
 return result;
 }       
