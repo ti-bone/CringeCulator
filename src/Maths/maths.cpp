@@ -14,7 +14,7 @@ return result;
 
 int Maths::Multiply(int firstMultiply, int secondMultiply)
 {
-int result = firstMultiply + secondMultiply;
+int result = firstMultiply * secondMultiply;
 return result;
 }
 
