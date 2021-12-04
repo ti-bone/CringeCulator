@@ -13,5 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: prepare
+      run: chmod 777 build.sh
     - name: build
       run: ./build.sh
