@@ -6,3 +6,4 @@ An Cringe Calculator on C++
 To build, you need to run `build.sh` script!
 
 Run the script with `--run` flag, and CringeCulator will automaticlly start after build!
+ 
